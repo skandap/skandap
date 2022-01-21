@@ -7,7 +7,7 @@ int present(char st[],char n)
     {
         if(*ptr==n)
         {
-            printf("the character %c is present in the string dingdong",n);
+            printf("the character %c is present in the string",n);
            x++;
         }
         ptr++;
