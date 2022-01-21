@@ -2,7 +2,7 @@
 void encrypt(char *c);
 int main()
 {
-    char c[]="skanda prasad";
+    char c[]="sahana hatwar";
     encrypt(c);
     printf("the encrypted string is %s",c);
     return 0;

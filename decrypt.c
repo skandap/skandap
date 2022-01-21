@@ -2,7 +2,7 @@
 void encrypt(char *c);
 int main()
 {
-    char c[]="tlboeb!qsbtbe";
+    char c[]="tbibob!ibuxbs";
     encrypt(c);
     printf("the encrypted string is %s",c);
     return 0;
