@@ -41,8 +41,10 @@ int delete_at_pos(int a[],int pos,int n)                 //deletion
     }
 printf("item to be deleted is %d\n",a[pos]);
     for(int i=pos+1;i<n;i++)
+    {
     a[i-1]=a[i];
     return n-1;
+}
 }
 void main()
 {
