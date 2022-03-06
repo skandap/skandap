@@ -27,10 +27,10 @@ void stringmatch()
                 c++;
                 m=c;
                 i=0; 
-                }
+           }
         }
 ans[j]='\0';
-    }
+ }
 void main()
 {
     printf("enter the string\n");
