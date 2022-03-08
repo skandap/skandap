@@ -5,7 +5,7 @@ int max=4,count;
 struct student
 {
     char usn[20];
-    char name[20];
+    char name[30];
     char branch[20];
     int sem;
     char phno[20];
@@ -41,6 +41,7 @@ NODE *getnode(NODE *head)
     scanf("%d",&(newnode->sem)); 
     fflush(NULL);
      gets(newnode->phno);
+     //fflush(NULL);
     newnode->next=NULL;
     head=newnode;
     return head;
@@ -49,9 +50,7 @@ void display()
 {
     NODE *p;
     if(head==NULL)
-    {
         printf("no student data\n");
-    }
         else
         {
             p=head;
@@ -267,7 +266,6 @@ void main()
             case 6:stack();
             break;
             case 7:exit;
-            break;
         }
 
     }
