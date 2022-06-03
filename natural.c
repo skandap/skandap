@@ -5,7 +5,6 @@ int main()
     int n,result;
     printf("enter the number\n");
     scanf("%d",&n);
-    //printf("the %d natural number is %d\n",n,sum(n));
     result=sum(n);
     printf("the natural number is %d\n",result);
     return 0;
@@ -16,7 +15,6 @@ int sum(int n)
     {
         return(n+sum(n-1));
     }
-    else{
+    else
         return 0;
-    }
 }
